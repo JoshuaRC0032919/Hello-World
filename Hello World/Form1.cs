@@ -29,7 +29,7 @@ namespace Hello_World
 
         private void TextBox1_TextChanged(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello " + txtbxName.Text);
+            MessageBox.Show("Hello " + txtbxName.Text+ textBox1.Text);
         }
     }
 }
